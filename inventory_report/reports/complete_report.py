@@ -31,4 +31,4 @@ class CompleteReport(SimpleReport):
 
 # foi utilizado somente para testar os retornos
 report = CompleteReport.generate(data)
-print(report)
+# print(report)
