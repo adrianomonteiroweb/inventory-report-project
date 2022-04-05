@@ -21,7 +21,7 @@ class Inventory:
                 list_json = json.load(file)
                 return Inventory.conditional_type(list_json, report_type)
 
-        elif file_type[-1] == "xml":
+        else:
             with open(file, 'r') as file:
                 reader_xml = ET.parse(file)
                 root = reader_xml.getroot()
