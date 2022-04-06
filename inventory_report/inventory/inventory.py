@@ -39,4 +39,4 @@ class Inventory:
         else:
             return CompleteReport.generate(file)
 
-# https://python.readthedocs.io/fr/latest/library/xml.etree.elementtree.html
+# https://python.readthedocs.io/fr/latest/library/xml.etree.elementtree.html -
